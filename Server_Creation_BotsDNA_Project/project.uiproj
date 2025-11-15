@@ -1,0 +1,6 @@
+{
+  "Name": "Server_Creation_BotsDNA_Project",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}

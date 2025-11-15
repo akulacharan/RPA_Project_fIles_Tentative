@@ -1,0 +1,199 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1194,1482.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="643.2,1459.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:Int32" Name="i">
+          <Variable.Default>
+            <Literal x:TypeArguments="x:Int32" Value="1" />
+          </Variable.Default>
+        </Variable>
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="609.6,1376" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+        <ui:InterruptibleWhile.Body>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="608,1254.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Cryptocurrency Prices, Charts And Market Capitalizations | CoinMarketCap" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="574.4,1080.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5274997c-7895-4ad8-8575-754edfd1c53e" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="540.8,832" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="EntireData" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Name'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Price'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='tr' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='p' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='4' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,189.6" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="5274997c-7895-4ad8-8575-754edfd1c53e" Version="V5">
+                      <uix:NExtractData.Target>
+                        <uix:TargetAnchorable BrowserURL="https://coinmarketcap.com/" DesignTimeRectangle="29, 648, 1873, 10016" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="e011094d-ecab-4172-ad19-07908f61bb32" InformativeScreenshot="dc8ac85b74d056086dda8d00a6333906.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cryptocurrency Prices, Charts And Market Capitalizations | CoinMarketCap' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" />
+                      </uix:NExtractData.Target>
+                    </uix:NExtractData>
+                    <ui:FilterDataTable DataTable="[ExtractDataTable]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="433.6,194.4" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[ExtractDataTable]" SelectColumnsMode="Remove">
+                      <ui:FilterDataTable.Filters>
+                        <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                          <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                            <ui:FilterOperationArgument.Column>
+                              <InArgument x:TypeArguments="x:String">["Name"]</InArgument>
+                            </ui:FilterOperationArgument.Column>
+                            <ui:FilterOperationArgument.Operand>
+                              <InArgument x:TypeArguments="x:String">["Bitcoin"]</InArgument>
+                            </ui:FilterOperationArgument.Operand>
+                          </ui:FilterOperationArgument>
+                        </scg:List>
+                      </ui:FilterDataTable.Filters>
+                      <ui:FilterDataTable.SelectColumns>
+                        <scg:List x:TypeArguments="InArgument" Capacity="4">
+                          <x:Null />
+                        </scg:List>
+                      </ui:FilterDataTable.SelectColumns>
+                    </ui:FilterDataTable>
+                    <ui:OutputDataTable DataTable="[ExtractDataTable]" DisplayName="Output Data Table as Text" sap:VirtualizedContainerService.HintSize="433.6,112.8" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[EntireData]" />
+                    <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="C:\Users\charanteja\Desktop\prac.txt.txt" sap:VirtualizedContainerService.HintSize="433.6,166.4" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="[DateTime.Now.ToString(&quot;HH:mm:ss&quot;)+&quot;     &quot; +EntireData]" UseDefaultEncoding="False" />
+                    <Assign sap:VirtualizedContainerService.HintSize="433.6,107.2" sap2010:WorkflowViewState.IdRef="Assign_1">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Int32">[i]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Int32">[i+1]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="90e7a004f527c92ea7faecfd994061ac.jpg" Selector="&lt;html app='chrome.exe' title='Cryptocurrency Prices, Charts And Market Capitalizations | CoinMarketCap' /&gt;" Url="https://coinmarketcap.com/" Version="V2" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="574.4,113.6" sap2010:WorkflowViewState.IdRef="Delay_1" />
+          </Sequence>
+        </ui:InterruptibleWhile.Body>
+        <ui:InterruptibleWhile.Condition>
+          <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="i &lt;=10" />
+        </ui:InterruptibleWhile.Condition>
+      </ui:InterruptibleWhile>
+    </Sequence>
+  </Sequence>
+</Activity>
