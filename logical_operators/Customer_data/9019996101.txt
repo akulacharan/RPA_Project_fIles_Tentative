@@ -1,0 +1,3 @@
+ItemName                   Price               Qty                    
+Banana                   50               4                    200
+Yayy!!!  you got 10% discount= 630

@@ -1,0 +1,6 @@
+{
+  "Name": "Date_Time",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}

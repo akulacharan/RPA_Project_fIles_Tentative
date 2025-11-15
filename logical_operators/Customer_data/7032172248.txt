@@ -1,0 +1,3 @@
+ItemName                   Price               Qty                    
+Apples                   250               2                    500
+TotalPrice = 500

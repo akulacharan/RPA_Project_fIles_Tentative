@@ -1,0 +1,33 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "72c55628-5d2d-4172-b573-bebcb2b7252c",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "PhoneNumber": {
+            "type": "string"
+          },
+          "userName": {
+            "type": "string"
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "isVIP": {
+            "type": "boolean"
+          },
+          "PhoneNumber": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ]
+}
