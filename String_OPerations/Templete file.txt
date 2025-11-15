@@ -1,0 +1,17 @@
+To  
+The Honorable Mayor  
+{0} Municipal Corporation  
+{1}
+
+Subject: Overview of Municipal Structure
+
+Respected Sir/Madam,
+
+This letter serves to outline the basic administrative structure of {0}, located within {1}. The city currently comprises {2} municipal wards, each serving as a vital unit of local governance and public service delivery.
+
+We trust this information supports ongoing planning and development efforts for the betterment of {0}.
+
+Thank you.
+
+Sincerely,  
+[—No signature required—]
